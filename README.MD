@@ -1,1 +1,1 @@
-Practicing syscalls in C and x86-64
+Practice writing syscalls in C and x86-64

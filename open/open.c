@@ -8,7 +8,7 @@ int main(){
         perror("Failed to open or create flag");
     }
     else {
-        printf("Created file successfully\n");
+        printf("Created flag successfully\n");
     }
 }
 
