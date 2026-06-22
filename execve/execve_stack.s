@@ -2,7 +2,7 @@
 .globl _start 
 
 _start:
-    mov rbx, 0x68732f6e69622f
+    mov rbx, 0x68732f6e69622f # b'/bin/sh\x00'
     push rbx 
     mov rdi, rsp 
     mov rsi, 0 
