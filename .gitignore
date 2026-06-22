@@ -7,4 +7,4 @@
 !*.png
 !.gitignore
 !Makefile 
-!README.MD
+!*.md
