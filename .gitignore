@@ -4,6 +4,7 @@
 !*.h 
 !*.s
 !*.py
+!*.png
 !.gitignore
 !Makefile 
 !README.MD
