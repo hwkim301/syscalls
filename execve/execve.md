@@ -19,7 +19,7 @@ $ file /bin
 /bin: symbolic link to usr/bin
 ```
 
-Long story short, `/bin` is now merged to `/usr/bin` because unlike the past when `/bin` had the purpose to contain the utilities to mount `/usr`, nowadays initramfs suepersedes it. 
+Long story short, `/bin` is now merged to `/usr/bin` because unlike the past when `/bin` had the purpose to contain the utilities to mount `/usr`, nowadays initramfs supersedes it. 
 
 [fedora project](https://fedoraproject.org/wiki/Features/UsrMove) has explained the background on why `/bin` and `/usr/bin` was merged. 
 
@@ -42,13 +42,13 @@ That was just a bad joke.
 
 [Dash](https://en.wikipedia.org/wiki/Almquist_shell) (Debian Almquist shell) is an `ash` shell ported by Herbert Xu from NETBSD to Debian. 
 
-Almquist shell aka `ash` was a lighweight Unix shell written by Kenneth Almquist. 
+Almquist shell aka `ash` was a lightweight Unix shell written by Kenneth Almquist. 
 
 The binary size for Bash became huge over the years so Debian/Ubuntu decided to switch from bash to dash in order to speed things up. 
 
 [stackoverflow](https://serverfault.com/questions/193293/what-is-bin-dash) has a post on the topic. 
 
-According to [ubuntu wiki](https://wiki.ubuntu.com/DashAsBinSh) Ubuntu's default sytem shell has changed from bash to dahs since Ubuntu 8.04 LTS which is quite a long time ago. 
+According to [ubuntu wiki](https://wiki.ubuntu.com/DashAsBinSh) Ubuntu's default sytem shell has changed from bash to dash since Ubuntu 8.04 LTS which is quite a long time ago. 
 
 You can check the difference in file sizes between bash and dash.
 
@@ -108,7 +108,7 @@ execve.s: Assembler messages:
 execve.s:5: Error: invalid operands (*UND* and .text sections) for `+'
 ```
 
-Initially, since x86-64 can run x86 in compatability mode I thought I could just use a smaller register and execute int 0x80 instead of syscall. 
+Initially, since x86-64 can run x86 in compatibility mode I thought I could just use a smaller register and execute int 0x80 instead of syscall. 
 
 Swapping the r prefix to e and switching syscall to int 0x80 will not work. 
 
@@ -160,7 +160,7 @@ The execve syscall number for x86 is 11, while for x86-64 it's 59.
 59	64	execve			sys_execve
 ```
 
-Now take a look at the 32bit version of execve("/bin/sh",0,0). 
+Now take a look at the 32bit version of `execve("/bin/sh",0,0)`. 
 
 ```
 .intel_syntax noprefix 
