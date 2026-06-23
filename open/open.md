@@ -13,7 +13,7 @@ Illegal instruction (core dumped)
 
 However, if you push the file on the stack using hexadecimals you won't need to specify the sections. 
 
-According to [stackoverlow](https://stackoverflow.com/questions/59870800/how-is-text-segment-made-read-only), the `.text` section of an ELF file is read-only by default unless you modify the linker. 
+According to [stackoverflow](https://stackoverflow.com/questions/59870800/how-is-text-segment-made-read-only), the `.text` section of an ELF file is read-only by default unless you modify the linker. 
 
 Run `readelf` on the ELF. 
 
