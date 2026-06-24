@@ -22,7 +22,7 @@ According to the [glibc manual](https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/
 
 The value of `pid_t` is defined in `<sys/types.h>`.
 
-The maximum value of `pid_t` used to be 32768, but on Ubuntu 24.04.4 its' now 4194304.
+The maximum value of `pid_t` used to be 32768, but on Ubuntu 24.04.4 it's now 4194304.
 
 Run the command below to find the maximum value of `pid` and check [here](https://stackoverflow.com/questions/6294133/maximum-pid-in-linux) for more information.
 
