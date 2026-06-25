@@ -1,5 +1,5 @@
 CC = gcc
-DIRS = open 
+DIRS = open execve 
 
 all: $(DIRS)
 

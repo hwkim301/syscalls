@@ -79,7 +79,7 @@ Since we've learned about the user and group identifiers, now let's move on to s
 
 Huh, what does that mean? 
 
-I got the diagram from pwn.college, it was the only proper slide that depicts the setuid/setgid model correctly.
+I got the diagram from [pwn.college](https://docs.google.com/presentation/d/1EB7dL5gx3pQlPDqZSEqTtlDiJRZmHGbqRnwxgm4feuw/edit?slide=id.g9338a9ecde_0_10#slide=id.g9338a9ecde_0_10), it was the only proper slide that depicts the setuid/setgid model correctly.
 
 ![permissions](permissions.png)
 
